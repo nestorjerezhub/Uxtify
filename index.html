@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/4881ca78e1.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+    <title>UXTIFY</title>
+</head>
+<body>
+
+    <!-- Logo y Menu  -->
+
+    <header id="header">
+        <div class="wrapper">
+            <a href="">
+                <img src="images/logo.png" alt="logo">
+            </a>
+
+            <button id="submenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Menu Links -->
+
+            <ul class="menu-left">
+                <li><a href="">¿Como Funciona?</a></li>
+                <li><a href="">Precios</a></li>
+                <li><a href="">Testimonios</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+
+            <ul class="menu-right">
+                <li class="menu-cta"><a href="">Descarga</a></li>
+            </ul>
+
+        </div>
+    </header>
+
+    <!-- Fin del Menu -->
+    
+    <!-- Start Page -->
+
+    <section id="intro">
+
+        <div class="top-right-gradient"></div>
+
+        <div class="wrapper">
+            <div class="intro-left">
+                <div class="caja-texto">
+                <h1>Entiende A Tus Usuarios, ¡Ahora!</h1>
+                <p>Todo lo que tu equipo necesita para descubrir ideas y hacer los cambios correctos.</p>
+                <a href="#" class="intro-cta"> Pruebalo Gratis</a>
+                </div>
+            </div>
+
+            <div class="intro-right">
+                <img src="images/parte1.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="bottom-left-gradient"></div>
+
+    </section>
+
+    <!-- Star Page Final -->
+
+    <!-- About Page, Comienzo -->
+
+    <section id="about">
+        <div class="wrapper">
+            <div class="about-left">
+                <img src="images/parte2.png" alt="">
+            </div>
+
+            <div class="about-right">
+                <h1>Comprendelos Y ¡Crece Mas Rapido!</h1>
+                <p> Rastrea la satisfacción del cliente y empatice con sus usuarios donde se atascan. Observe el comportamiento y date cuenta de como la gente realmente esta usando tu producto</p>
+                <a href="#" class="cta">Leer Mas...</a>
+            </div>
+        </div>
+
+        <div class="top-right-gradient"></div>
+
+    </section>
+    
+    <!-- About Page, Final  -->
+
+    <!-- Banner -->
+
+    <div class="banner">
+        <div class="caja-banner">
+                <h1>El Camino Más Corto</h1>
+                <h3>Para que tus usuarios se adapten a tu web</h3>
+                <a href="">Pruebalo Gratis</a>
+
+        </div>
+        
+    </div>
+
+    <!-- Banner Final -->
+
+    <!-- Comienzo del Footer -->
+
+    <footer>
+
+    <div class="wrapper">
+        <div class="footer-left">
+            <a href="">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <p class="footer-links">
+                <a href="#">Nosotros</a>
+                <a href="#">Precios</a>
+                <a href="#">Testimonios</a>
+                <a href="#">Contacto</a>
+             </p>
+
+            <p class="footer-company-name">
+                Uxtify 2019 - By Nestor Jerez
+            </p>
+        </div>
+            <div class="footer-center">
+
+
+                <div>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><span>Caracas Venezuela</span></p>
+                </div>
+
+                <div>
+                    <i class="fas fa-phone"></i>
+                    <p><span>+584243588366</span></p>
+                </div>
+
+                <div>
+                    <i class="fas fa-envelope"></i>
+                    <p><span>contacto@uxtify.com</span></p>
+                </div>
+
+    
+            </div>
+
+            <div class="footer-right">
+
+                <p class="footer-connect">
+                    <span>Siguenos</span>
+                    Estamos dia a dia activos en nuestras redes sociales, ofreciendo consejos, ayudas y ¡Mucho Mas!.
+                </p>
+
+                <div class="footer-icons">
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+
+            </div>
+
+    </div>
+
+</footer>
+
+    <!-- Fin del Footer -->
+
+<script>
+
+    function showMenu(event){
+        event.preventDefault();
+        let element = document.getElementById('header');
+
+        if (element.classList.contains('active')){
+            element.className = "";
+
+        } else {
+            element.className = "active";
+        }
+    }
+
+</script>
+
+</body>
+</html>
